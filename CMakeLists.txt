@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Monitor.msg"
   "msg/ObjectEnabled.msg"
   "msg/ObjectState.msg"
+  "msg/TriggerEvent.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
