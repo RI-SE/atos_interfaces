@@ -23,6 +23,7 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Accm.msg"
+  "msg/Trcm.msg"
   "msg/ControlSignalPercentage.msg"
   "msg/Exac.msg"
   "msg/MaestroHeader.msg" 
