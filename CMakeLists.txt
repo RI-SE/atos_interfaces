@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectId.msg"
   "msg/ObjectIdArray.msg"
   "msg/ObjectState.msg"
+  "msg/Trajectory.msg"
+  "msg/TrajectoryPoint.msg"
   "msg/TriggerEvent.msg"
   "srv/GetObjectIds.srv"
   DEPENDENCIES geometry_msgs std_msgs

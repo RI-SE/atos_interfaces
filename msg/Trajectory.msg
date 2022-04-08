@@ -1,0 +1,2 @@
+MaestroHeader header
+TrajectoryPoint[] points
