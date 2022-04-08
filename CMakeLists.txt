@@ -29,9 +29,14 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ManoeuvreCommand.msg"
   "msg/Monitor.msg"
   "msg/ObjectEnabled.msg"
+  "msg/ObjectId.msg"
+  "msg/ObjectIdArray.msg"
   "msg/ObjectState.msg"
   "msg/TriggerEvent.msg"
+  "srv/GetObjectIds.srv"
   DEPENDENCIES geometry_msgs std_msgs
 )
+
+
 
 ament_package()
