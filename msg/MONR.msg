@@ -1,0 +1,16 @@
+MaestroHeader header
+uint16 monrStructValueID;
+uint16 monrStructContentLength;
+uint32 gpsQmsOfWeek;
+int32 xPosition;
+int32 yPosition;
+int32 zPosition;
+uint16 heading;
+int16 longitudinalSpeed;
+int16 lateralSpeed;
+int16 longitudinalAcc;
+int16 lateralAcc;
+uint8 driveDirection;
+uint8 state;
+uint8 readyToArm;
+uint8 errorStatus;
