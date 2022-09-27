@@ -1,7 +1,8 @@
 bool abortRequest
 bool outsideGeofence
 bool badPositioningAccuracy
-bool engineFault
-bool batteryFault
-bool syncPointEnded
-bool unknownError
+bool lowBattery
+bool errorActive
+bool warning
+bool fatalError
+bool otherError
