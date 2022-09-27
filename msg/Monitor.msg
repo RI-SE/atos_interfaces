@@ -2,4 +2,7 @@ MaestroHeader maestro_header
 geometry_msgs/PoseStamped pose
 geometry_msgs/TwistStamped velocity
 geometry_msgs/AccelStamped acceleration
+ObjectDriveDirection driveDirection
+ReadyToArm readyToArm
+ObjectErrorType errorStatus
 ObjectState object_state
