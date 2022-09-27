@@ -3,7 +3,6 @@ geometry_msgs/PoseStamped pose
 geometry_msgs/TwistStamped velocity
 geometry_msgs/AccelStamped acceleration
 DriveDirection driveDirection;
-uint8 state;
-uint8 readyToArm;
+ReadyToArm readyToArm;
 uint8 errorStatus;
 ObjectState object_state
