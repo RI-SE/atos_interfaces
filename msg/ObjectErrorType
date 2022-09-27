@@ -1,0 +1,7 @@
+bool abortRequest
+bool outsideGeofence
+bool badPositioningAccuracy
+bool engineFault
+bool batteryFault
+bool syncPointEnded
+bool unknownError
