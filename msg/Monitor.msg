@@ -4,5 +4,5 @@ geometry_msgs/TwistStamped velocity
 geometry_msgs/AccelStamped acceleration
 ObjectDriveDirection driveDirection
 ReadyToArm readyToArm
-ObjectErrorStatus errorStatus
+ObjectErrorType errorStatus
 ObjectState object_state
