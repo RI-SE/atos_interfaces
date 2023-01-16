@@ -27,6 +27,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ISO22133/TriggerEventOccurred.msg"
   "msg/ISO22133/ExecuteAction.msg"
   "msg/ISO22133/Monitor.msg"
+  "msg/V2X/V2x.msg"
+  "msg/V2X/V2xTriggerConfiguration.msg"
   "msg/ControlSignalPercentage.msg"
   "msg/MaestroHeader.msg" 
   "msg/ManoeuvreCommand.msg"
