@@ -22,13 +22,14 @@ find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Accm.msg"
-  "msg/Trcm.msg"
+  "msg/ISO22133/ActionConfiguration.msg"
+  "msg/ISO22133/TriggerConfiguration.msg"
+  "msg/ISO22133/TriggerEventOccurred.msg"
+  "msg/ISO22133/ExecuteAction.msg"
+  "msg/ISO22133/Monitor.msg"
   "msg/ControlSignalPercentage.msg"
-  "msg/Exac.msg"
   "msg/MaestroHeader.msg" 
   "msg/ManoeuvreCommand.msg"
-  "msg/Monitor.msg"
   "msg/ObjectEnabled.msg"
   "msg/ObjectId.msg"
   "msg/ObjectIdArray.msg"
@@ -38,7 +39,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ReadyToArm.msg"
   "msg/Trajectory.msg"
   "msg/TrajectoryPoint.msg"
-  "msg/TriggerEvent.msg"
   "srv/GetObjectIds.srv"
   DEPENDENCIES geometry_msgs std_msgs
 )
