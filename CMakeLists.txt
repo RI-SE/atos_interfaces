@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(maestro_interfaces)
+project(atos_interfaces)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -30,7 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/V2X/V2x.msg"
   "msg/V2X/V2xTriggerConfiguration.msg"
   "msg/ControlSignalPercentage.msg"
-  "msg/MaestroHeader.msg" 
+  "msg/ATOSHeader.msg" 
   "msg/ManoeuvreCommand.msg"
   "msg/ObjectEnabled.msg"
   "msg/ObjectId.msg"
