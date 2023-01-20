@@ -1,2 +1,2 @@
-MaestroHeader header
+ATOSHeader header
 TrajectoryPoint[] points
