@@ -42,6 +42,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Trajectory.msg"
   "msg/TrajectoryPoint.msg"
   "srv/GetObjectIds.srv"
+  "srv/GetTestOrigin.srv"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
