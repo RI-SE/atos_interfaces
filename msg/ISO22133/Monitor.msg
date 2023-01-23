@@ -1,4 +1,4 @@
-MaestroHeader maestro_header
+ATOSHeader atos_header
 geometry_msgs/PoseStamped pose
 geometry_msgs/TwistStamped velocity
 geometry_msgs/AccelStamped acceleration
