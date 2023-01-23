@@ -3,7 +3,7 @@
 <package format="3">
   <name>atos_interfaces</name>
   <version>1.0.0</version>
-  <description>TODO: Package description</description>
+  <description>API for communication between ATOS modules</description>
   <maintainer email="victor.jarlow@astazero.com">victor</maintainer>
   <license>TODO: License declaration</license>
 
