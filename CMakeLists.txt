@@ -41,8 +41,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectDriveDirection.msg"
   "msg/ObjectErrorType.msg"
   "msg/ReadyToArm.msg"
-  "msg/Trajectory.msg"
-  "msg/TrajectoryPoint.msg"
   "msg/CartesianTrajectory.msg"
   "msg/CartesianTrajectoryPoint.msg"
   "msg/CartesianTolerance.msg"
