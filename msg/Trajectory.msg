@@ -1,2 +1,0 @@
-ATOSHeader header
-TrajectoryPoint[] points
