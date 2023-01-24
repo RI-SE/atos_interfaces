@@ -46,7 +46,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CartesianTolerance.msg"
   "srv/GetObjectIds.srv"
   "srv/GetTestOrigin.srv"
-  "srv/GetStartOnTrigger.srv"
+  "srv/GetObjectTriggerStart.srv"
   "srv/GetObjectTrajectory.srv"
   "srv/GetObjectIp.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs geographic_msgs std_msgs
