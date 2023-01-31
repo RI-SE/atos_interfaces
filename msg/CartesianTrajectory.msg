@@ -2,3 +2,4 @@
 std_msgs/Header header
 CartesianTrajectoryPoint[] points
 string controlled_frame
+string name
