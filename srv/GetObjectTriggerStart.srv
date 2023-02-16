@@ -1,4 +1,5 @@
 uint32 id
 ---
 bool success true
+uint32 id
 bool trigger_start
