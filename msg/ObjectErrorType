@@ -1,8 +1,0 @@
-bool abortRequest
-bool outsideGeofence
-bool badPositioningAccuracy
-bool lowBattery
-bool errorActive
-bool warning
-bool fatalError
-bool otherError
