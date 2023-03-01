@@ -28,13 +28,13 @@ find_package(geographic_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ISO22133/ActionConfiguration.msg"
-  "msg/ISO22133/TriggerConfiguration.msg"
-  "msg/ISO22133/TriggerEventOccurred.msg"
-  "msg/ISO22133/ExecuteAction.msg"
-  "msg/ISO22133/Monitor.msg"
-  "msg/V2X/V2x.msg"
-  "msg/V2X/V2xTriggerConfiguration.msg"
+  "msg/ActionConfiguration.msg"
+  "msg/TriggerConfiguration.msg"
+  "msg/TriggerEventOccurred.msg"
+  "msg/ExecuteAction.msg"
+  "msg/Monitor.msg"
+  "msg/V2x.msg"
+  "msg/V2xTriggerConfiguration.msg"
   "msg/ControlSignalPercentage.msg"
   "msg/ATOSHeader.msg" 
   "msg/ManoeuvreCommand.msg"
