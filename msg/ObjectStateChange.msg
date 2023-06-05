@@ -3,5 +3,5 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 uint32 id
-ObjectState prevState
+ObjectState prev_state
 ObjectState state
