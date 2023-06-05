@@ -42,6 +42,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObjectId.msg"
   "msg/ObjectIdArray.msg"
   "msg/ObjectState.msg"
+  "msg/ObjectStateChange.msg"
   "msg/ObjectDriveDirection.msg"
   "msg/ObjectErrorType.msg"
   "msg/ReadyToArm.msg"
