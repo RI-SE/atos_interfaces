@@ -3,4 +3,4 @@
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 uint8 prev_state
-uint8 state
+uint8 current_state
