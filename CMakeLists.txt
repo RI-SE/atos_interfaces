@@ -50,6 +50,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CartesianTrajectoryPoint.msg"
   "msg/CartesianTolerance.msg"
   "msg/ObjectTriggerStart.msg"
+  "msg/StateChange.msg"
   "srv/GetObjectIds.srv"
   "srv/GetTestOrigin.srv"
   "srv/GetObjectTriggerStart.srv"
