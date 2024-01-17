@@ -58,6 +58,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetObjectIp.srv"
   "srv/GetObjectControlState.srv"
   "srv/GetObjectReturnTrajectory.srv"
+  "srv/SetObjectIp.srv"
   DEPENDENCIES builtin_interfaces geometry_msgs geographic_msgs std_msgs
 )
 
