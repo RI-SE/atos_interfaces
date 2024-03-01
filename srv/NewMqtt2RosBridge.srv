@@ -1,0 +1,8 @@
+# This service is used to dynamically register new MQTT -> ROS mappings.
+
+string ros_topic
+string mqtt_topic 
+uint8 mqtt_qos 0
+uint32 ros_queue_size 1
+---
+bool success
