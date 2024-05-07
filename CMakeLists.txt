@@ -27,39 +27,14 @@ find_package(geometry_msgs REQUIRED)
 find_package(geographic_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ActionConfiguration.msg"
-  "msg/TriggerConfiguration.msg"
-  "msg/TriggerEventOccurred.msg"
-  "msg/ExecuteAction.msg"
-  "msg/Monitor.msg"
-  "msg/V2x.msg"
-  "msg/V2xTriggerConfiguration.msg"
-  "msg/ControlSignalPercentage.msg"
-  "msg/ATOSHeader.msg" 
-  "msg/ManoeuvreCommand.msg"
-  "msg/ObjectEnabled.msg"
-  "msg/ObjectId.msg"
-  "msg/ObjectIdArray.msg"
-  "msg/ObjectState.msg"
-  "msg/ObjectStateChange.msg"
-  "msg/ObjectDriveDirection.msg"
-  "msg/ObjectErrorType.msg"
-  "msg/ReadyToArm.msg"
-  "msg/CartesianTrajectory.msg"
-  "msg/CartesianTrajectoryPoint.msg"
-  "msg/CartesianTolerance.msg"
-  "msg/ObjectTriggerStart.msg"
-  "msg/StateChange.msg"
-  "srv/GetObjectIds.srv"
-  "srv/GetTestOrigin.srv"
-  "srv/GetObjectTriggerStart.srv"
-  "srv/GetObjectTrajectory.srv"
-  "srv/GetObjectIp.srv"
-  "srv/GetObjectControlState.srv"
-  "srv/GetObjectReturnTrajectory.srv"
-  "srv/SetObjectIp.srv"
-  DEPENDENCIES builtin_interfaces geometry_msgs geographic_msgs std_msgs
-)
+  file(GLOB_RECURSE MSG_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "msg/*.msg")
+  file(GLOB_RECURSE SRV_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "srv/*.srv")
+
+  rosidl_generate_interfaces(${PROJECT_NAME}
+    ${MSG_FILES}
+    ${SRV_FILES}
+    DEPENDENCIES builtin_interfaces geometry_msgs geographic_msgs std_msgs
+  )
+
 
 ament_package()
