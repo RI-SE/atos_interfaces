@@ -5,3 +5,4 @@
 ---
 bool success true
 uint32[] ids
+string[] names
