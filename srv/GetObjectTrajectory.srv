@@ -4,6 +4,6 @@
 
 uint32 id
 ---
-bool success true
+bool success false
 uint32 id
 CartesianTrajectory trajectory
