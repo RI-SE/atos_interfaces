@@ -10,3 +10,4 @@ ObjectDriveDirection drive_direction
 ReadyToArm ready_to_arm
 ObjectErrorType error_status
 ObjectState object_state
+byte[] raw_data
