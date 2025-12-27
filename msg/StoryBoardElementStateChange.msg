@@ -2,8 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-uint32 id
----
-bool success false
-uint32 id
-CartesianTrajectory trajectory
+string name
+uint8 type
+uint8 state
+string full_path
